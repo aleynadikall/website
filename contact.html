@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Contact</title>
+
+    <script>
+        
+    </script>
+    <style>
+        .bg-yellow {
+            background-color: #FFF9C4;
+        }
+
+        
+        .text-medium-pink {
+            color: #F06292;
+        }
+
+        .contact {
+            color: #95D1CC !important;
+        } 
+        .text-light-pink {
+            color: #F8BBD0;
+        }
+        .bg-pink {
+            background-color: #FFECEE;
+        }
+
+        @media screen and (max-width:768px) {
+            .sakarya-map {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-bottom: 1.5rem;
+            }
+
+            .sakarya-map,
+            iframe {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg-yellow p-4"></div>
+    <div class="container">
+        <!-- Create Logo Image -->
+        <div class="container-sm">
+            <span class="logo-img"><img src="https://cdn.logojoy.com/wp-content/uploads/2018/05/30143732/197.png"
+                    alt="Logo" class="mx-auto d-block" width="380" height="300"></span>
+        </div>
+
+        <div>
+            <hr class="border-muted">
+            <nav class="navbar navbar-expand-sm bg-white navbar-white justify-content-center p-0 text-monospace">
+
+                <!-- Links -->
+                <ul class="navbar-nav ">
+                    <li class="nav-item text-center">
+                        <a class="nav-link h5 text-muted" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link h5 text-muted" href="./blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link h5 text-muted" href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link h5 text-muted contact" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <hr class="border-muted">
+        </div>
+
+
+        <div class="col-12">
+            <div class="row mt-5">
+                <div class="col-lg-5 col-sm-12 sakarya-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12091.635064557599!2d30.332731!3d40.742033!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc7996fa884f94c03!2sSakarya%20%C3%9Cniversitesi!5e0!3m2!1str!2str!4v1640182072274!5m2!1str!2str"
+                        width="550" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="col-sm-12 col-lg-2 "></div>
+                <div class="col-lg-5 col-sm-12 mt-3">
+                    <h3 class="text-center mb-3 text-medium-pink">ART FANATIC?</h3>
+                    <form action="./mailAlert.html">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label text-light-pink">Email Address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="nameSurname" class="form-label text-light-pink">Name Surname</label>
+                            <input type="text" class="form-control" id="nameSurname" aria-describedby="emailHelp" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="topic" class="form-label text-light-pink">Topic</label>
+                            <textarea class="form-control " id="topic" cols="30" rows="5" style="resize: none;"
+                                placeholder="Which painters should I post about?"></textarea>
+                        </div>
+                        <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+                        <button id="button" type="submit" class="btn btn-outline-dark pb-2 mb-5 submit-button"
+                            style="font-size: 0.90rem;" href="">Join Us</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="pt-3"></div>
+    <div class="bg-yellow p-4"></div>
+
+    <script>
+    </script>
+
+</body>
+
+</html>
