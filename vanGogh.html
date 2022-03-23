@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vincent Van Gogh</title>
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.png">
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+
+
+    <style>
+        .bg-yellow {
+            background-color: #FFF9C4;
+        }
+
+        .bg-pink {
+            background-color: #F8BBD0;
+            color: white;
+            font-weight: bolder;
+        }
+
+        .div-breadcrumb {
+            padding-right: 0;
+        }
+
+        .text-darken-pink {
+            color: #AD1457;
+        }
+
+        .text-medium-pink {
+            color: #F06292;
+        }
+
+        .text-light-pink {
+            color: #F8BBD0;
+        }
+
+        .p1 {
+            font-family: Jokerman;
+            font-size: 50px;
+            text-align: left;
+        }
+
+        .p2 {
+            font-size: 13px;
+            text-align: justify;
+
+        }
+
+        .p3 {
+            font-size: 0.75rem;
+            text-align: center;
+            padding-top: 0.35rem;
+            margin-top: 0.40rem;
+            width: 80px;
+            height: 30px;
+            background-color: black;
+        }
+
+        .div-about {
+            display: flex;
+            text-align: justify;
+            justify-content: space-evenly;
+
+        }
+
+        h6 {
+            font-size: 0.75rem;
+        }
+
+        .test {
+            transition: .3s all;
+        }
+
+        .test:hover {
+            -ms-transform: scale(1.03);
+            /* IE 9 */
+            -webkit-transform: scale(1.03);
+            /* Safari 3-8 */
+            transform: scale(1.03);
+            cursor: pointer;
+        }
+
+        @media screen and (max-width:768px) {
+            article{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            .image-galery{
+                margin:0 !important;
+                padding: 0 !important;
+            
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid div-about mb-5 bg-yellow p-1">
+        <h6 class="p3 text-white">ABOUT</h6>
+    </div>
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-lg-6 col-sm-12">
+                <article>
+                    <div class="toast" data-autohide="false">
+                        <div class="toast-header">
+                            <strong class="mr-auto text-light-pink">REMINDER</strong>
+                            <small class="text-muted">Just Now</small>
+                            <button type="button" class="ml-2 mb-1 close" data-dismiss="toast">&times;</button>
+                        </div>
+                        <div class="toast-body">
+                            Please click on the photos to see a larger version...
+                        </div>
+                    </div>
+                    <p class="p1 font-italic font-bold mt-5 test">VINCENT VAN GOGH</p>
+                </article>
+            </div>
+
+            <div class="col-lg-6 col-sm-12">
+
+                <article>
+                    <p class="p2 mb-3" style="line-height: 2.5;">Vincent Van Gogh, the pioneer of expressionism, known for his tragic life, saw
+                        his brush as a way of escape and prosperity from this cruel life.Maybe we will never understand
+                        what Van Gogh went through in his inner world, we will oscillate between what we understand from
+                        a starry night and what he is telling. Perhaps as he said, “One day death will take us to
+                        another star.” Who knows, maybe…</p>
+                    <a type="button" class="btn btn-outline-dark pb-2 " style="font-size: 0.70rem;"
+                        href="./blog.html">Go
+                        Back</a>
+                </article>
+
+            </div>
+
+        </div>
+    </div>
+    </div class="container">
+    <hr class="border-muted">
+
+    <div class="container h6 bg-yellow div-breadcrumb">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb bg-white">
+                <li class="breadcrumb-item"><a class="text-darken-pink" style="text-decoration: none;"
+                        href="./index.html">Home</a></li>
+                <li class="breadcrumb-item"><a class="text-medium-pink" style="text-decoration: none;"
+                        href="./blog.html">Blog</a></li>
+                <li class="breadcrumb-item active" aria-current="page">
+                    <p class="text-light-pink">Vincent van Gogh</p>
+                </li>
+            </ol>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div>
+            <div class="mt-5 container text-monospace"><i class="fab fa-app-store fa-lg"> Portfolio</i></div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="article1" aria-label="Vincent Van Gogh">
+
+                        <div class="entry-content pt-5 image-galery">
+                            <a class="btn" type="button" style="text-decoration: none;" href="" data-toggle="modal"
+                            data-target="#myModal" ><img class="test click" src="./images/the-starry-night.jpg"
+                                    alt="The Starry Night By Vincent Van Gogh" width="335" height="250">
+                            </a>
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog modal-dialog-centered modal-xl">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header" style="background-color: #BBDEFB;">
+                                            <h5 class="modal-title text-medium-pink">The Starry Night</h5>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="">
+                                                <img class="mx-auto d-block" src="./images/the-starry-night.jpg" alt="" height="500" width="80%">
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer" style="background-color: #BBDEFB;">
+                                            <button type="button" class="btn bg-pink"
+                                                data-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-2 image-galery">
+                            <header class="header1">
+                                <h6 class="ml-3 image-galery">THE STARRY NIGHT</h6>
+                            </header>
+                        </div>
+                        <footer class="entry-footer pb-3"></footer>
+                    </article>
+
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="article2" aria-label="Vincent Van Gogh">
+
+                        <div class="entry-content mt-5 pt-5 image-galery">
+                            <a class="btn" type="button" style="text-decoration: none;" href="" data-toggle="modal"
+                            data-target="#myModal2" ><img class="ml-3 pl-2 test image-galery click"
+                                    src="./images/Self-portrait-of-Vincent.jpg"
+                                    alt="Self-portrait Of Vincent Van Gogh With His Bandaged Ear By Vincent Van Gogh"
+                                    width="300" height="350">
+                            </a>
+                            <div class="modal" id="myModal2">
+                                <div class="modal-dialog modal-dialog-centered modal-xl">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header" style="background-color: #BBDEFB;">
+                                            <h5 class="modal-title text-medium-pink">Self-portrait Of Vincent Van Gogh With His Bandaged Ear</h5>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="">
+                                                <img class="mx-auto d-block" src="./images/Self-portrait-of-Vincent.jpg" alt="" height="500" >
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer" style="background-color: #BBDEFB;">
+                                            <button type="button" class="btn bg-pink"
+                                                data-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-2 image-galery">
+                            <header class="header2">
+                                <h6 class="pl-4 ml-3 image-galery">SELF-PORTRAIT OF VINCENT VAN GOGH WITH HIS BANDAGED EAR</h6>
+                            </header>
+                        </div>
+                        <footer class="entry-footer pb-3"></footer>
+                    </article>
+                </div>
+
+                <div class="mt-5 col-lg-4 col-md-6 col-sm-12 image-galery">
+                    <article class="article3" aria-label="Vincent Van Gogh">
+
+                        <div class="entry-content image-galery">
+                            <a class="btn" type="button" data-toggle="modal"
+                            data-target="#myModal3" style="text-decoration: none; color:slategray;" href=""><img class="test click"
+                                    src="./images/Cafe-Terrace.jpg" alt="The Cafe Terrace By Vincent Van Gogh"
+                                    width="260" height="300">
+                            </a>
+                            <div class="modal" id="myModal3">
+                                <div class="modal-dialog modal-dialog-centered modal-xl">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header" style="background-color: #BBDEFB;">
+                                            <h5 class="modal-title text-medium-pink">The Cafe Terrace</h5>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="">
+                                                <img class="mx-auto d-block" src="./images/Cafe-Terrace.jpg" alt="" height="500" >
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer" style="background-color: #BBDEFB;">
+                                            <button type="button" class="btn bg-pink"
+                                                data-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-2 image-galery">
+                            <header class="header3">
+                                <h6 class="mb-3 ml-3 image-galery">THE CAFE TERRACE</h6>
+                            </header>
+                        </div>
+                        <footer class="entry-footer pb-3"></footer>
+                    </article>
+                </div>
+
+
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="article4" aria-label="Vincent Van Gogh">
+
+                        <div class="entry-content image-galery">
+                            <a class="btn" type="button" style="text-decoration: none;" href="" data-toggle="modal"
+                            data-target="#myModal4" ><img class="ml-5 test image-galery click" src="./images/chair.jpg"
+                                    alt="Van Gogh's Chair By Vincent Van Gogh" width="265" height="350">
+                            </a>
+                            <div class="modal" id="myModal4">
+                                <div class="modal-dialog modal-dialog-centered modal-xl">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header" style="background-color: #BBDEFB;">
+                                            <h5 class="modal-title text-medium-pink">Van Gogh's Chair</h5>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="">
+                                                <img class="mx-auto d-block" src="./images/chair.jpg" alt="" height="500" >
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer" style="background-color: #BBDEFB;">
+                                            <button type="button" class="btn bg-pink"
+                                                data-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-2 ml-5 image-galery">
+                            <header class="header4">
+                                <h6 class="ml-3 image-galery">VAN GOGH'S CHAIR</h6>
+                            </header>
+                        </div>
+                        <footer class="entry-footer pb-3"></footer>
+                    </article>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="article5" aria-label="Vincent Van Gogh">
+
+                        <div class="entry-content mt-5 pt-5 image-galery">
+                            <a class="btn" type="button" style="text-decoration: none;" href="" data-toggle="modal"
+                            data-target="#myModal5"><img class="mr-5 pr-3 test image-galery click"
+                                    src="./images/bedroom-in-arles.jpg" alt="Bedroom In Arles By Vincent Van Gogh"
+                                    width="350" height="265">
+                            </a>
+                            <div class="modal" id="myModal5">
+                                <div class="modal-dialog modal-dialog-centered modal-xl">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header" style="background-color: #BBDEFB;">
+                                            <h5 class="modal-title text-medium-pink">Bedroom In Arles</h5>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="">
+                                                <img class="mx-auto d-block" src="./images/bedroom-in-arles.jpg" alt="" height="500" width="80%">
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer" style="background-color: #BBDEFB;">
+                                            <button type="button" class="btn bg-pink"
+                                                data-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" mt-2 image-galery">
+                            <header class="header5">
+                                <h6 class="ml-3 image-galery">BEDROOM IN ARLES</h6>
+                            </header>
+                        </div>
+                        <footer class="entry-footer pb-3"></footer>
+                    </article>
+                </div>
+                </article>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <article class="article6" aria-label="Vincent Van Gogh">
+
+                        <div class="entry-content image-galery">
+
+                            <a class="btn" type="button" style="text-decoration: none;" href="" data-toggle="modal"
+                            data-target="#myModal6"><img class="ml-3 test click image-galery"
+                                    src="./images/sorrowing-old-man.jpg" alt="Sorrowing Old Man By Vincent Van Gogh"
+                                    width="265" height="350">
+                            </a>
+                            <div class="modal" id="myModal6">
+                                <div class="modal-dialog modal-dialog-centered modal-xl">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header" style="background-color: #BBDEFB;">
+                                            <h5 class="modal-title text-medium-pink">Sorrowing Old Man</h5>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <div class="">
+                                                <img class="mx-auto d-block" src="./images/sorrowing-old-man.jpg" alt="" height="500" >
+                                            </div>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer" style="background-color: #BBDEFB;">
+                                            <button type="button" class="btn bg-pink"
+                                                data-dismiss="modal">Close</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="mt-2 image-galery">
+                            <header class="header6">
+                                <h6 class="ml-4 pl-2 image-galery">SORROWING OLD MAN</h6>
+                            </header>
+                        </div>
+                        <footer class="entry-footer pb-3"></footer>
+                    </article>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+    </div>
+    </div>
+
+    <div class="p-3"></div>
+    <div class="bg-yellow p-4 mt-5"></div>
+
+    <script>
+        $(document).ready(function () {
+            $('.toast').toast('show');
+        });
+
+        tippy('.click',{
+            content:"Click Here",
+            followCursor: true,
+        });
+    </script>
+
+</body>
+
+</html>
